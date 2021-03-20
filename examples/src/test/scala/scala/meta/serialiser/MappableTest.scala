@@ -1,6 +1,10 @@
 package scala.meta.serialiser
 
 import org.scalatest._
+//import org.scalatest.matchers.must._
+//import org.scalatest.matchers.should.Matchers._
+import org.scalatest.wordspec.AnyWordSpec
+import org.specs2._
 
 object TestEntities {
   @mappable case class SimpleCaseClass(i: Int, s: String)
